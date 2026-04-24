@@ -202,8 +202,11 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 225px 225px 225px 225px;
-    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content:center;
+    gap: 20px;
+    margin-left: 2rem;
+    align-items: center;
 }
 .grid .btn {
     padding: 12px 25px;
