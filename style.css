@@ -238,6 +238,16 @@ body {
     }
 
 }
+.navbar1 .btn1 {
+    padding: 12px 25px;
+    border: none;
+    background: linear-gradient(45deg, #00f7ff, #ff00c8);
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: x-large;
+}
 
 .navbar1 h5 {
     display: none;
@@ -276,7 +286,19 @@ body {
     object-fit: cover;
     border-radius: 10px;
 }
-
+.back{
+    text-align: center;
+    margin: 20px;
+    a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.back a:hover {
+    color: #00f7ff;
+}
+}
 
 
 
