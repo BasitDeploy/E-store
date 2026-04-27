@@ -69,8 +69,8 @@ body {
 }
 
 .hero {
-    background-image: url(./assets/handsome-tourist-straw-hat-put-sunglasses-summer-vacation-standing-blue-background.jpg);
-    background-position: center;
+    background-image: url(./assets/bg\ 3.jpg);
+    background-position: right;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -86,29 +86,40 @@ body {
     /*background: linear-gradient(135deg, #1a1a40, #000);*/
     text-align: center;
 }
+.see-more {
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+    text-shadow: #000 5px 5px 5px;
+    font-size: x-large;
+}
 
 .see-more a {
-    color: #00f7ff;
+    color: #ff6f3c;
     text-decoration: none;
     font-size: 18px;
     transition: 0.3s;
-    text-shadow: 5px 5px 12px, #0b0b0b 0 0 25px, #000000 0 0 5px;
+    text-shadow: 5px 5px 12px, black;
+    
 }
 
 .hero-text h1 {
     font-size: 50px;
     margin-bottom: 15px;
     font-family: cursive;
-    text-shadow: 5px 5px 15px #000;
+    text-shadow: 5px 5px 7px #000;
     color: #ff6f3c;
+    -webkit-text-stroke: #000 3px;
 }
 
 .hero-text p {
     font-size: 18px;
     margin-bottom: 20px;
     color: #ff6f3c;
-    text-shadow: 5px 5px 15px #000;
+    text-shadow: 5px 5px 7px #000;
     font-size: x-large;
+    font-weight: bold;
+    text-shadow: 5px 5px 7px #000, 10px 10px 14px #000, 15px 15px 21px #000;
 }
 
 .hero .btn {
